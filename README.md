@@ -204,6 +204,8 @@ ping google.com
 
 ---
 
+
+##
 ## **Bloque 6: Tuberías con nombre y sockets**
 
 28. Crea una tubería con nombre llamada `cola`.
@@ -228,6 +230,7 @@ ping google.com
     
 
 ---
+##
 
 ## **Bloque 7: Redes**
 
