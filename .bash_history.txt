@@ -1,0 +1,148 @@
+    1  2025-09-25 12:01:58 ls -l
+    2  2025-09-25 12:01:58 pwd
+    3  2025-09-25 12:01:58 cd /
+    4  2025-09-25 12:01:58 cd
+    5  2025-09-25 12:01:58 pwd
+    6  2025-09-25 12:01:58 cd /
+    7  2025-09-25 12:01:58 cd ~
+    8  2025-09-25 12:01:58 pwd
+    9  2025-09-25 12:01:58 cd /
+   10  2025-09-25 12:01:58 mkdir ssii
+   11  2025-09-25 12:01:58 cd ssii
+   12  2025-09-25 12:01:58 touch file.txt
+   13  2025-09-25 12:01:58 > file2.txt
+   14  2025-09-25 12:01:58 ls
+   15  2025-09-25 12:01:58 ls -l
+   16  2025-09-25 12:01:58 echo hola > file.txt
+   17  2025-09-25 12:01:58 echo adios > file2.txt
+   18  2025-09-25 12:01:58 cat
+   19  2025-09-25 12:01:58 cat*
+   20  2025-09-25 12:01:58 cat *
+   21  2025-09-25 12:01:58 ln -s file.txt file_enlace.txt
+   22  2025-09-25 12:01:58 ls -l
+   23  2025-09-25 12:01:58 cat *
+   24  2025-09-25 12:01:58 ls -l
+   25  2025-09-25 12:01:58 ln file.txt file_enlace2.txt
+   26  2025-09-25 12:01:58 ls -l
+   27  2025-09-25 12:01:58 rm file.txt
+   28  2025-09-25 12:01:58 ls -l
+   29  2025-09-25 12:01:58 cat file_enlace.txt
+   30  2025-09-25 12:01:58 cat file_enlace2.txt
+   31  2025-09-25 12:01:58 cat *
+   32  2025-09-25 12:01:58 echo __adios____>> file.txt
+   33  2025-09-25 12:01:58 cat *
+   34  2025-09-25 12:01:58 pwd
+   35  2025-09-25 12:01:58 cd
+   36  2025-09-25 12:01:58 ls
+   37  2025-09-25 12:01:58 ls ..
+   38  2025-09-25 12:01:58 cd ..
+   39  2025-09-25 12:01:58 ls -l
+   40  2025-09-25 12:01:58 cd ..
+   41  2025-09-25 12:01:58 ls .
+   42  2025-09-25 12:01:58 ls -l
+   43  2025-09-25 12:01:58 cd home
+   44  2025-09-25 12:01:58 cd /home
+   45  2025-09-25 12:01:58 cd  ..
+   46  2025-09-25 12:01:58 ls-l
+   47  2025-09-25 12:01:58 ls -l
+   48  2025-09-25 12:01:58 sudo groupadd alumnos
+   49  2025-09-25 12:01:58 sudo groupadd profesores
+   50  2025-09-25 12:01:58 sudo useradd -m -g alumnos alumno1
+   51  2025-09-25 12:01:58 sudo useradd -m -g alumnos alumno2
+   52  2025-09-25 12:01:58 sudo useradd -m -g profesores profe1
+   53  2025-09-25 12:01:58 sudo useradd -m julian
+   54  2025-09-25 12:01:58 sudo useradd -m ubuntu
+   55  2025-09-25 12:01:58 sudo passwd alumno1
+   56  2025-09-25 12:01:58 sudo passwd alumno2
+   57  2025-09-25 12:01:58 sudo passwd profe1
+   58  2025-09-25 12:01:58 sudo passwd julian
+   59  2025-09-25 12:01:58 sudo passwd ubuntu
+   60  2025-09-25 12:01:58 ls -l
+   61  2025-09-25 12:01:58 grep profe /etc/passwd
+   62  2025-09-25 12:01:58 sudo usermod -c "Profesor 1 ticket entretenimiento intermedio" profe1
+   63  2025-09-25 12:01:58 ls -l
+   64  2025-09-25 12:01:58 grep profe1 /etc/passwd
+   65  2025-09-25 12:01:58 userdel -r profe1
+   66  2025-09-25 12:01:58 sudo userdel -r profe1
+   67  2025-09-25 12:01:58 ls -l
+   68  2025-09-25 12:01:58 grep sudo /etc/group
+   69  2025-09-25 12:01:58 sudo usermod -aG sudo ubuntu
+   70  2025-09-25 12:01:58 sudo usermod -aG sudo julian
+   71  2025-09-25 12:01:58 sudo usermod -aG sudo alumno1
+   72  2025-09-25 12:01:58 sudo usermod -aG sudo guille
+   73  2025-09-25 12:01:58 ls -l
+   74  2025-09-25 12:01:58 grep sudo /etc/group
+   75  2025-09-25 12:01:58 sudo gpasswd -d alumno1 sudo
+   76  2025-09-25 12:01:58 grep sudo /etc/group
+   77  2025-09-25 12:01:58 sudo usermod -aG sudo alumno1
+   78  2025-09-25 12:01:58 grep sudo /etc/group
+   79  2025-09-25 12:01:58 cd
+   80  2025-09-25 12:01:58 tail -5 .bash_history
+   81  2025-09-25 12:01:58 pwd
+   82  2025-09-25 12:01:58 cd ..
+   83  2025-09-25 12:01:58 ls -l
+   84  2025-09-25 12:01:58 grep profesores /etc/group
+   85  2025-09-25 12:01:58 rmdir profe2
+   86  2025-09-25 12:01:58 sudo rmdir profe2
+   87  2025-09-25 12:01:58 sudo rm -r profe2
+   88  2025-09-25 12:01:58 ls -l
+   89  2025-09-25 12:01:58 usermod -g profesores profe1
+   90  2025-09-25 12:01:58 sudo usermod -g alumnos alumno1
+   91  2025-09-25 12:03:09 export HISTSIZE=10000
+   92  2025-09-25 12:03:09 export HISTFILESIZE=20000
+   93  2025-09-25 12:03:09 export HISTTIMEFORMAT="%F %T "
+   94  2025-09-25 12:03:23 history
+   95  2025-09-25 12:03:55 sudo nano ~/.bashrc
+   96  2025-09-25 12:04:08 HISTSIZE=10000
+   97  2025-09-25 12:04:08 HISTFILESIZE=20000
+   98  2025-09-25 12:04:08 HISTTIMEFORMAT="%F %T "
+   99  2025-09-25 12:04:19 sudo nano ~/.bashrc
+  100  2025-09-25 12:04:35 HISTSIZE=10000
+  101  2025-09-25 12:04:35 HISTFILESIZE=20000
+  102  2025-09-25 12:04:35 HISTTIMEFORMAT="%F %T "
+  103  2025-09-25 12:04:39 sudo nano ~/.bashrc
+  104  2025-09-25 12:04:49 HISTSIZE=10000
+  105  2025-09-25 12:04:49 HISTFILESIZE=20000
+  106  2025-09-25 12:04:49 HISTTIMEFORMAT="%F %T "
+  107  2025-09-25 12:04:57 uname -a
+  108  2025-09-25 12:05:03 uname -r
+  109  2025-09-25 12:05:09 df -h
+  110  2025-09-25 12:05:16 du -h /etc
+  111  2025-09-25 12:05:22 free -h
+  112  2025-09-25 12:05:32 ps aux
+  113  2025-09-25 12:05:41 sudo apt install htop
+  114  2025-09-25 12:05:58 ps -lax
+  115  2025-09-25 12:06:05 ps -lax | grep tty
+  116  2025-09-25 12:06:12 pstree
+  117  2025-09-25 12:06:19 ping google.com
+  118  2025-09-25 12:06:35 #!/bin/bash
+  119  2025-09-25 12:06:35 trap "echo 'No puedes cerrarme con Ctrl+C'" SIGINT
+  120  2025-09-25 12:06:35 while true; do     echo "Ejecutando...";     sleep 2; done
+  121  2025-09-25 12:07:19 systemctl status ssh
+  122  2025-09-25 12:07:28 sudo systemctl start ssh
+  123  2025-09-25 12:07:37 sudo systemctl disable ssh
+  124  2025-09-25 12:07:37 sudo systemctl enable ssh
+  125  2025-09-25 12:07:43 ls -la ~
+  126  2025-09-25 12:07:48 mkdir prueba
+  127  2025-09-25 12:07:53 echo "Hola Linux" > prueba/notas.txt
+  128  2025-09-25 12:07:57 cp prueba/notas.txt prueba/notas_copia.txt
+  129  2025-09-25 12:08:02 mv prueba/notas_copia.txt prueba/notas_renombrado.txt
+  130  2025-09-25 12:08:06 rm prueba/notas_renombrado.txt
+  131  2025-09-25 12:08:12 ls > listado.txt
+  132  2025-09-25 12:08:16 echo "Fin del listado" >> listado.txt
+  133  2025-09-25 12:08:23 let a=3/0 2>/dev/null
+  134  2025-09-25 12:08:28 ps aux | grep bash
+  135  2025-09-25 12:08:32 tail -n 5 listado.txt
+  136  2025-09-25 12:08:39 ping -c 4 google.com
+  137  2025-09-25 12:08:44 ip addr
+  138  2025-09-25 12:08:48 ss -tuln
+  139  2025-09-25 12:08:52 host google.com
+  140  2025-09-25 12:09:02 dig google.com
+  141  2025-09-25 12:09:06 ssh usuario@IP_remota
+  142  2025-09-25 12:09:16 scp archivo.txt usuario@IP_remota:/ruta/destino/
+  143  2025-09-25 12:09:22 sudo adduser alumno1
+  144  2025-09-25 12:09:32 sudo passwd alumno1
+  145  2025-09-25 12:09:41 chmod 755 archivo.txt
+  146  2025-09-25 12:09:46 sudo chown otroUsuario archivo.txt
+  147  2025-09-25 12:09:51 sudo deluser alumno1
+  148  2025-09-25 12:10:19 history
